@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/staedte/dortmund',
-  assetPrefix: '/staedte/dortmund',
+  assetPrefix: 'https://ai-gastro-hub-dortmund.vercel.app',
 };
 
 export default nextConfig;
