@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ai-gastro-hub-dortmund.vercel.app"
+        }
+      ],
       "destination": "https://www.ki-gastronomie.com/staedte/dortmund/$1",
       "permanent": true
     }
